@@ -1,4 +1,4 @@
-#Modern mosquitto C sample
+# Modern mosquitto C sample
 
 How to write a C MQTT client using Mosquitto The 2018 version.
 
