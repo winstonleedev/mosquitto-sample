@@ -6,14 +6,14 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#define MQTT_HOSTNAME ""//https://pauls-iot.testpa.thingbine.com/#/login
-#define MQTT_PORT 8890
-#define MQTT_CLIENTID "000000000001"
-#define MQTT_USERNAME "000000000001"
-#define MQTT_PASSWORD ""
-#define MQTT_TOPIC "" //1개 센서값 전송
+#define MQTT_HOSTNAME "mqtt.sandbox.thingplus.net"
+#define MQTT_PORT 8883
+#define MQTT_CLIENTID "cc7a10000002"
+#define MQTT_USERNAME "cc7a10000002"
+#define MQTT_PASSWORD "xuS3BlVVE8Vn2C410y1fs_eOlDs="
+#define MQTT_TOPIC "v/a/g/cc7a10000002/s/cc7a10000002-number-1"
 
-char text[100] = "text to publish";
+char text[100] = "[1543388495584,22]";
 static bool connected = true;
 static bool disconnect_sent = false;
 static int mid_sent = 0;
